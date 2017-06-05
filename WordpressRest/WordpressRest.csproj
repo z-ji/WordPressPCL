@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>zji.wordpress.core</PackageId>
+    <Authors>Zefei Ji</Authors>
+    <Company />
+    <Product>Wordpress.Rest.Core</Product>
+    <Description>port from https://github.com/wp-net/WordPressPCL.
+targeting dotnet core.</Description>
+    <PackageLicenseUrl>https://github.com/z-ji/WordPressPCL/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/z-ji/WordPressPCL</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+</Project>
